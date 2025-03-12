@@ -5,10 +5,10 @@ event.preventDefault();
     const convertpin=parseInt(pinnumber)
     if(accountnumber.length===11){
         if(convertpin===1234){
-            window.location.href="./main.html"
+            window.location.href="./script/main.html";
         }
         else{
-            alert("thik nai");
+            alert("Not okay");
     
         }
     }
